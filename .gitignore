@@ -1,0 +1,61 @@
+# === PYTHON ===
+*.py[cod]
+__pycache__/
+*.so
+*.egg-info/
+*.log
+.env
+.venv/
+venv/
+Pipfile.lock
+requirements.txt~
+
+# === VS CODE ===
+.vscode/
+.history/
+
+# === ARDUINO ===
+*.hex
+*.elf
+*.bin
+*.cpp~
+*.o
+*.d
+*.bak
+*.tmp
+*.dmp
+*.dep
+*.log
+
+# Arduino build folders
+build/
+*.ino.*
+*.cpp
+*.ino.cpp
+
+# === DOCKER ===
+*.pid
+docker-compose.override.yml
+
+# === SISTEMA OPERACIONAL ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === BACKUPS TEMPORAIS ===
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.bak
+*.old
+*.tmp
+*.swp
+
+# === OUTROS ===
+node_modules/
+dist/
+tmp/
+.idea/
+*.exe
+*.docx
